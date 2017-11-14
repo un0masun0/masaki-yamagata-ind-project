@@ -1,0 +1,155 @@
+body {
+    background-color: #B8B8AA;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+}
+
+
+id {
+    color: #000000;
+    background-color: #4F759B;
+    text-decoration: none;
+}
+
+a:link {
+    color: #FFFCF9; 
+    background-color: #96BDC6; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFCF9;
+    background-color: #96BDC6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4F759B;
+    background-color: #96BDC6;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #96BDC6;
+    background-color: #96BDC6;
+    text-decoration: underline;
+}
+
+/*header*/
+.headercontainer {
+    border: 4px solid #60695C;
+    background-color: #4F759B;
+    margin: 12px;
+}
+
+.headertext {
+    background-color: #4F759B;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+/*navigation bar*/
+.navbarcontainer {
+    border: 4px solid #60695C;
+    background-color: #96BDC6;
+    margin: 12px;
+    padding: 12.5px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.navbartext {
+    background-color: #96BDC6;
+    font-family: 'Work Sans' sans-serif;
+    
+}
+
+.splashimagecontainer {
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcometextbox {
+    background-color: #4F759B;
+    border: 4px solid #60695C;
+    display: flex;
+    justify-content: center;
+}
+
+/*makes text uniform*/
+.bodytext {
+    
+    color: #FFFCF9;
+    width: 900px;
+    height: 50px;
+    margin: 12px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.gototop {
+    border: 4px solid #60695C;
+    background-color: #96BDC6;
+    width: auto;
+    margin: 12px;
+    padding: 12.5px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*story page*/
+.storybox {
+    width: auto;
+    margin: 25px;
+    display: flex;
+    column-count: 2;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.storycolumn {
+    width: auto;
+    border: 4px solid #60695C;
+    padding: 25px;
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.storyimage {
+    width: 400px;
+}
+
+.storytext {
+    width: 480px;
+    padding: 25px;
+    margin: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*map page*/
+.mapcontainer {
+    margin: auto; 
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
